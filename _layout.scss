@@ -8,8 +8,8 @@ div.layout {
 	padding: $section-padding 0 ($section-padding - $element-margin) 0;
 
 	> aside.layout-aside {
-		flex: 0 0 ($container-width / 3);
-		max-width: ($container-width / 3);
+		flex: 0 0 ($container-width * 0.333);
+		max-width: ($container-width * 0.333);
 
 		@supports (position: sticky) or (position: -webkit-sticky) {
 			.layout-aside-sticky {
